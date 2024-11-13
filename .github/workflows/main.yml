@@ -16,8 +16,8 @@ jobs:
                 OutFile "Downloads.bat"
                          cmd /c Downloads.bat
 
-                  - name: Connect to LiteManager
+                  - name: Connect to LiteManager -
                     run: cmd /c show.bat
 
-                  - name: Time Counter
+                  - name: Time Counter  -
                     run: cmd /c loop.bat
